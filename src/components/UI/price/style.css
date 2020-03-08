@@ -1,0 +1,21 @@
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price__value {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.price__value--discount {
+  color: #CC0000;
+}
+
+.price__value--old-value {
+  font-size: 14px;
+  color: #948F88;
+  text-decoration: line-through;
+}

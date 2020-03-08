@@ -1,0 +1,162 @@
+.card-list {
+  display: flex;
+  padding: 62px 0;
+  margin: 0;
+  overflow-x: auto;
+}
+
+.card-list li {
+  list-style: none;
+  flex: 0 0 200px;
+  width: 200px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card header {
+  padding-bottom: 18px;
+}
+
+.card__image {
+  position: relative;
+  padding-top: 100%;
+  border-radius: 10px;
+  background-color: #F4F2EE;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 148px auto;
+  background-blend-mode: darken;
+}
+
+.card__image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card__title {
+  margin-top: 14px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.card__main {
+  margin-top: auto;
+}
+
+.card__row {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating__stars {
+  height: 15px;
+  background-repeat: repeat-x;
+  background-image: url("/star.048b30bb.svg");
+}
+
+.rating__stars--1 {
+  width: 17px;
+}
+
+.rating__stars--2 {
+  width: 34px;
+}
+
+.rating__stars--3 {
+  width: 51px;
+}
+
+.rating__stars--4 {
+  width: 68px;
+}
+
+.rating__stars--5 {
+  width: 85px;
+}
+
+.rating__number {
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 18px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price__value {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.price__value--discount {
+  color: #CC0000;
+}
+
+.price__value--old-value {
+  font-size: 14px;
+  color: #948F88;
+  text-decoration: line-through;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: white;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  color: #3F78D4;
+}
+
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+
+/*# sourceMappingURL=/src.f69400ca.css.map */

@@ -1,0 +1,36 @@
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating__stars {
+  height: 15px;
+  background-repeat: repeat-x;
+  background-image: url("star.svg");
+}
+
+.rating__stars--1 {
+  width: 17px;
+}
+
+.rating__stars--2 {
+  width: 34px;
+}
+
+.rating__stars--3 {
+  width: 51px;
+}
+
+.rating__stars--4 {
+  width: 68px;
+}
+
+.rating__stars--5 {
+  width: 85px;
+}
+
+.rating__number {
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 18px;
+}
