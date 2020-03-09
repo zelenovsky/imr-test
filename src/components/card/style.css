@@ -39,15 +39,9 @@
   margin-top: auto;
 }
 
-.card__row {
-  display: flex;
-  align-items: center;
-  height: 30px;
-}
-
 .card footer {
   display: flex;
-  flex: 1 1 auto;
+  height: 36px;
   margin-top: 15px;
 }
 
@@ -57,4 +51,9 @@
 
 .card footer > .btn-buy {
   flex: 1 1 auto;
+}
+
+.card--sidebar {
+  font-size: 13px;
+  font-weight: 600;
 }

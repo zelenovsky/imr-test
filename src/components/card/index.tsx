@@ -15,34 +15,34 @@ const Card: FunctionalComponent<ICard> = (props) => {
         <h4 className="card__title">{title}</h4>
       </header>
       <div className="card__main">
-        <div className="card__row">
+        <div className="row">
           <Rating rating={rating}/>
         </div>
-        <div className="card__row">
+        <div className="row">
           <Price value={price.value} discount={price.discount} />
         </div>
-        <div className="card__row">
+        <div className="row">
           <span className="overflow-ellipsis">
             {color}
           </span>
         </div>
-        <div className="card__row">
+        <div className="row">
           <span className="overflow-ellipsis">
             {material}
           </span>
         </div>
-        <div className="card__row">
+        <div className="row">
           <span className="overflow-ellipsis">
             {sizes}
           </span>
         </div>
-        <div className="card__row">
+        <div className="row">
           <span className="overflow-ellipsis">
             {mechanism}
           </span>
         </div>
-        <div className="card__row">
-          <a href={seller.url} className="overflow-ellipsis">{seller.name}</a>
+        <div className="row">
+          <a href={seller.url} className="overflow-ellipsis" target="_blank">{seller.name}</a>
         </div>
       </div>
       <footer>

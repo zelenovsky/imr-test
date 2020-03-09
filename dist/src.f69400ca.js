@@ -819,35 +819,36 @@ var Card = function Card(props) {
   }, title)), (0, _preact.h)("div", {
     className: "card__main"
   }, (0, _preact.h)("div", {
-    className: "card__row"
+    className: "row"
   }, (0, _preact.h)(_rating.default, {
     rating: rating
   })), (0, _preact.h)("div", {
-    className: "card__row"
+    className: "row"
   }, (0, _preact.h)(_price.default, {
     value: price.value,
     discount: price.discount
   })), (0, _preact.h)("div", {
-    className: "card__row"
+    className: "row"
   }, (0, _preact.h)("span", {
     className: "overflow-ellipsis"
   }, color)), (0, _preact.h)("div", {
-    className: "card__row"
+    className: "row"
   }, (0, _preact.h)("span", {
     className: "overflow-ellipsis"
   }, material)), (0, _preact.h)("div", {
-    className: "card__row"
+    className: "row"
   }, (0, _preact.h)("span", {
     className: "overflow-ellipsis"
   }, sizes)), (0, _preact.h)("div", {
-    className: "card__row"
+    className: "row"
   }, (0, _preact.h)("span", {
     className: "overflow-ellipsis"
   }, mechanism)), (0, _preact.h)("div", {
-    className: "card__row"
+    className: "row"
   }, (0, _preact.h)("a", {
     href: seller.url,
-    className: "overflow-ellipsis"
+    className: "overflow-ellipsis",
+    target: "_blank"
   }, seller.name))), (0, _preact.h)("footer", null, (0, _preact.h)("button", {
     className: "btn-like",
     type: "button"
@@ -888,7 +889,39 @@ var CardList = function CardList(_ref) {
   var cards = _ref.cards;
   return (0, _preact.h)("ul", {
     className: "card-list"
-  }, cards.map(function (cardOptions) {
+  }, (0, _preact.h)("li", null, (0, _preact.h)("article", {
+    className: "card card--sidebar"
+  }, (0, _preact.h)("div", {
+    className: "card__main"
+  }, (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, "\u0420\u0435\u0439\u0442\u0438\u043D\u0433")), (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, "\u0426\u0435\u043D\u0430")), (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, "\u0426\u0432\u0435\u0442")), (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, "\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B")), (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, "\u0420\u0430\u0437\u043C\u0435\u0440\u044B")), (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, "\u041C\u0435\u0445\u0430\u043D\u0438\u0437\u043C")), (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, "\u041F\u0440\u043E\u0434\u0430\u0432\u0435\u0446"))), (0, _preact.h)("footer", null))), cards.map(function (cardOptions) {
     return (0, _preact.h)("li", null, (0, _preact.h)(_card.default, Object.assign({}, cardOptions)));
   }));
 };
@@ -950,7 +983,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49385" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58739" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

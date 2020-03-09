@@ -52,15 +52,9 @@
   margin-top: auto;
 }
 
-.card__row {
-  display: flex;
-  align-items: center;
-  height: 30px;
-}
-
 .card footer {
   display: flex;
-  flex: 1 1 auto;
+  height: 36px;
   margin-top: 15px;
 }
 
@@ -71,6 +65,12 @@
 .card footer > .btn-buy {
   flex: 1 1 auto;
 }
+
+.card--sidebar {
+  font-size: 13px;
+  font-weight: 600;
+}
+
 .rating {
   display: flex;
   align-items: center;
@@ -187,12 +187,36 @@ button {
 }
 
 .app {
+  position: relative;
   padding-top: 52px;
+  overflow: hidden;
 }
 
 .container {
   max-width: 1130px;
   margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.row:nth-child(odd) {
+  position: relative;
+}
+
+.row:nth-child(odd)::after {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  bottom: 0;
+  width: calc(100% + 20px);
+  background-color: #F4F2EE;
+  z-index: -1;
+  pointer-events: none;
+  content: '';
 }
 
 .overflow-ellipsis {
