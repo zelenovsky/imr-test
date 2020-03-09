@@ -43,7 +43,18 @@
   display: flex;
   align-items: center;
   height: 30px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+}
+
+.card footer {
+  display: flex;
+  flex: 1 1 auto;
+  margin-top: 15px;
+}
+
+.card footer > button + button {
+  margin-left: 15px;
+}
+
+.card footer > .btn-buy {
+  flex: 1 1 auto;
 }

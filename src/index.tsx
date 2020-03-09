@@ -6,7 +6,7 @@ import './style.css';
 
 const App = () => {
   return (
-    <section className="container">
+    <section className="container app">
       <CardList cards={data} />
     </section>
   )

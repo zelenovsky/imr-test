@@ -1,6 +1,6 @@
 .card-list {
   display: flex;
-  padding: 62px 0;
+  padding: 10px 0;
   margin: 0;
   overflow-x: auto;
 }
@@ -56,9 +56,20 @@
   display: flex;
   align-items: center;
   height: 30px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+}
+
+.card footer {
+  display: flex;
+  flex: 1 1 auto;
+  margin-top: 15px;
+}
+
+.card footer > button + button {
+  margin-left: 15px;
+}
+
+.card footer > .btn-buy {
+  flex: 1 1 auto;
 }
 .rating {
   display: flex;
@@ -153,9 +164,41 @@ a {
   color: #3F78D4;
 }
 
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0.5em 0.9em;
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 14px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.btn-like {
+  border: 2px solid #FF9F9F;
+}
+
+.btn-buy {
+  background-color: #009900;
+}
+
+.app {
+  padding-top: 52px;
+}
+
 .container {
   max-width: 1130px;
   margin: 0 auto;
+}
+
+.overflow-ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 
