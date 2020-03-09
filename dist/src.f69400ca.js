@@ -478,164 +478,6 @@ exports.options = n = {
 }, y.prototype.forceUpdate = function (n) {
   this.__v && (this.__e = !0, n && this.__h.push(n), g(this));
 }, y.prototype.render = d, u = [], i = "function" == typeof Promise ? Promise.prototype.then.bind(Promise.resolve()) : setTimeout, o = f, r = 0;
-},{}],"data.json":[function(require,module,exports) {
-module.exports = [{
-  "image": {
-    "url": "/images/sofa.jpg",
-    "description": "Sofa"
-  },
-  "title": "Тумба прикроватная Rubus с двумя ящиками",
-  "rating": "4.4",
-  "price": {
-    "value": "56 720 Р"
-  },
-  "color": "Черный",
-  "material": "Ткань",
-  "sizes": "ш. 349 х в. 234 х г. 323",
-  "mechanism": "Французская раскладушка",
-  "seller": {
-    "url": "https://laska-family.ru/",
-    "name": "Laska Family"
-  }
-}, {
-  "image": {
-    "url": "/images/sofa.jpg",
-    "description": "Sofa"
-  },
-  "title": "Тумба прикроватная Rubus с двумя ящиками",
-  "rating": "4.8",
-  "price": {
-    "discount": {
-      "value": "67 736 Р"
-    },
-    "value": "56 720 Р"
-  },
-  "color": "Черный",
-  "material": "Ткань",
-  "sizes": "ш. 349 х в. 234 х г. 323",
-  "mechanism": "Французская раскладушка",
-  "seller": {
-    "url": "https://dg-home.ru/",
-    "name": "DG Home"
-  }
-}, {
-  "image": {
-    "url": "/images/sofa.jpg",
-    "description": "Sofa"
-  },
-  "title": "Тумба прикроватная Rubus с двумя ящиками",
-  "rating": "4.8",
-  "price": {
-    "value": "56 720 Р"
-  },
-  "color": "Черный",
-  "material": "Ткань",
-  "sizes": "ш. 349 х в. 234 х г. 323",
-  "mechanism": "Французская раскладушка",
-  "seller": {
-    "url": "https://laska-family.ru/",
-    "name": "Laska Family"
-  }
-}, {
-  "image": {
-    "url": "/images/sofa.jpg",
-    "description": "Sofa"
-  },
-  "title": "Тумба прикроватная Rubus с двумя ящиками",
-  "rating": "3.1",
-  "price": {
-    "discount": {
-      "value": "67 736 Р"
-    },
-    "value": "56 720 Р"
-  },
-  "color": "Черный",
-  "material": "Ткань",
-  "sizes": "ш. 349 х в. 234 х г. 323",
-  "mechanism": "Французская раскладушка",
-  "seller": {
-    "url": "https://dg-home.ru/",
-    "name": "DG Home"
-  }
-}, {
-  "image": {
-    "url": "/images/sofa.jpg",
-    "description": "Sofa"
-  },
-  "title": "Тумба прикроватная Rubus с двумя ящиками",
-  "rating": "4.8",
-  "price": {
-    "value": "56 720 Р"
-  },
-  "color": "Черный",
-  "material": "Ткань",
-  "sizes": "ш. 349 х в. 234 х г. 323",
-  "mechanism": "Французская раскладушка",
-  "seller": {
-    "url": "https://laska-family.ru/",
-    "name": "Laska Family"
-  }
-}, {
-  "image": {
-    "url": "/images/sofa.jpg",
-    "description": "Sofa"
-  },
-  "title": "Тумба прикроватная Rubus с двумя ящиками",
-  "rating": "4.8",
-  "price": {
-    "discount": {
-      "value": "67 736 Р"
-    },
-    "value": "56 720 Р"
-  },
-  "color": "Черный",
-  "material": "Ткань",
-  "sizes": "ш. 349 х в. 234 х г. 323",
-  "mechanism": "Французская раскладушка",
-  "seller": {
-    "url": "https://dg-home.ru/",
-    "name": "DG Home"
-  }
-}, {
-  "image": {
-    "url": "/images/sofa.jpg",
-    "description": "Sofa"
-  },
-  "title": "Тумба прикроватная Rubus с двумя ящиками",
-  "rating": "4.8",
-  "price": {
-    "value": "56 720 Р"
-  },
-  "color": "Черный",
-  "material": "Ткань",
-  "sizes": "ш. 349 х в. 234 х г. 323",
-  "mechanism": "Французская раскладушка",
-  "seller": {
-    "url": "https://laska-family.ru/",
-    "name": "Laska Family"
-  }
-}, {
-  "image": {
-    "url": "/images/sofa.jpg",
-    "description": "Sofa"
-  },
-  "title": "Тумба прикроватная Rubus с двумя ящиками",
-  "rating": "4.8",
-  "price": {
-    "discount": {
-      "value": "67 736 Р"
-    },
-    "value": "56 720 Р"
-  },
-  "color": "Черный",
-  "material": "Ткань",
-  "sizes": "ш. 349 х в. 234 х г. 323",
-  "mechanism": "Французская раскладушка",
-  "seller": {
-    "url": "https://dg-home.ru/",
-    "name": "DG Home"
-  }
-}];
 },{}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
@@ -703,7 +545,451 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"components/card-list/style.css":[function(require,module,exports) {
+},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"styles/base.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/typography.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/buttons.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"styles/index.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"./base.css":"styles/base.css","./typography.css":"styles/typography.css","./buttons.css":"styles/buttons.css","_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/card-carousel/style.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/card-carousel/data.json":[function(require,module,exports) {
+module.exports = [{
+  "image": {
+    "url": "/images/sofa.jpg",
+    "description": "Sofa"
+  },
+  "title": {
+    "label": "Название",
+    "value": "Тумба прикроватная Rubus с двумя ящиками"
+  },
+  "rating": {
+    "label": "Рейтинг",
+    "value": "4.4"
+  },
+  "price": {
+    "label": "Цена",
+    "value": "56 720 Р"
+  },
+  "color": {
+    "label": "Цвет",
+    "value": "Черный"
+  },
+  "material": {
+    "label": "Материал",
+    "value": "Ткань"
+  },
+  "sizes": {
+    "label": "Размеры",
+    "value": "ш. 349 х в. 234 х г. 323"
+  },
+  "mechanism": {
+    "label": "Механизм",
+    "value": "Французская раскладушка"
+  },
+  "seller": {
+    "label": "Продавец",
+    "value": "Laska Family",
+    "url": "https://laska-family.ru/"
+  }
+}, {
+  "image": {
+    "url": "/images/sofa.jpg",
+    "description": "Sofa"
+  },
+  "title": {
+    "label": "Название",
+    "value": "Тумба прикроватная Rubus с двумя ящиками"
+  },
+  "rating": {
+    "label": "Рейтинг",
+    "value": "4.4"
+  },
+  "price": {
+    "label": "Цена",
+    "value": "56 720 Р",
+    "discount": {
+      "value": "67 736 Р"
+    }
+  },
+  "color": {
+    "label": "Цвет",
+    "value": "Черный"
+  },
+  "material": {
+    "label": "Материал",
+    "value": "Ткань"
+  },
+  "sizes": {
+    "label": "Размеры",
+    "value": "ш. 349 х в. 234 х г. 323"
+  },
+  "mechanism": {
+    "label": "Механизм",
+    "value": "Французская раскладушка"
+  },
+  "seller": {
+    "label": "Продавец",
+    "value": "Laska Family",
+    "url": "https://laska-family.ru/"
+  }
+}, {
+  "image": {
+    "url": "/images/sofa.jpg",
+    "description": "Sofa"
+  },
+  "title": {
+    "label": "Название",
+    "value": "Тумба прикроватная Rubus с двумя ящиками"
+  },
+  "rating": {
+    "label": "Рейтинг",
+    "value": "4.4"
+  },
+  "price": {
+    "label": "Цена",
+    "value": "56 720 Р",
+    "discount": {
+      "value": "67 736 Р"
+    }
+  },
+  "color": {
+    "label": "Цвет",
+    "value": "Черный"
+  },
+  "material": {
+    "label": "Материал",
+    "value": "Ткань"
+  },
+  "sizes": {
+    "label": "Размеры",
+    "value": "ш. 349 х в. 234 х г. 323"
+  },
+  "mechanism": {
+    "label": "Механизм",
+    "value": "Французская раскладушка"
+  },
+  "seller": {
+    "label": "Продавец",
+    "value": "DG Home",
+    "url": "https://dg-home.ru/"
+  }
+}, {
+  "image": {
+    "url": "/images/sofa.jpg",
+    "description": "Sofa"
+  },
+  "title": {
+    "label": "Название",
+    "value": "Тумба прикроватная Rubus с двумя ящиками"
+  },
+  "rating": {
+    "label": "Рейтинг",
+    "value": "4.4"
+  },
+  "price": {
+    "label": "Цена",
+    "value": "56 720 Р"
+  },
+  "color": {
+    "label": "Цвет",
+    "value": "Черный"
+  },
+  "material": {
+    "label": "Материал",
+    "value": "Ткань"
+  },
+  "sizes": {
+    "label": "Размеры",
+    "value": "ш. 349 х в. 234 х г. 323"
+  },
+  "mechanism": {
+    "label": "Механизм",
+    "value": "Французская раскладушка"
+  },
+  "seller": {
+    "label": "Продавец",
+    "value": "Laska Family",
+    "url": "https://laska-family.ru/"
+  }
+}, {
+  "image": {
+    "url": "/images/sofa.jpg",
+    "description": "Sofa"
+  },
+  "title": {
+    "label": "Название",
+    "value": "Тумба прикроватная Rubus с двумя ящиками"
+  },
+  "rating": {
+    "label": "Рейтинг",
+    "value": "4.4"
+  },
+  "price": {
+    "label": "Цена",
+    "value": "56 720 Р",
+    "discount": {
+      "value": "67 736 Р"
+    }
+  },
+  "color": {
+    "label": "Цвет",
+    "value": "Черный"
+  },
+  "material": {
+    "label": "Материал",
+    "value": "Ткань"
+  },
+  "sizes": {
+    "label": "Размеры",
+    "value": "ш. 349 х в. 234 х г. 323"
+  },
+  "mechanism": {
+    "label": "Механизм",
+    "value": "Французская раскладушка"
+  },
+  "seller": {
+    "label": "Продавец",
+    "value": "Laska Family",
+    "url": "https://laska-family.ru/"
+  }
+}, {
+  "image": {
+    "url": "/images/sofa.jpg",
+    "description": "Sofa"
+  },
+  "title": {
+    "label": "Название",
+    "value": "Тумба прикроватная Rubus с двумя ящиками"
+  },
+  "rating": {
+    "label": "Рейтинг",
+    "value": "4.4"
+  },
+  "price": {
+    "label": "Цена",
+    "value": "56 720 Р",
+    "discount": {
+      "value": "67 736 Р"
+    }
+  },
+  "color": {
+    "label": "Цвет",
+    "value": "Черный"
+  },
+  "material": {
+    "label": "Материал",
+    "value": "Ткань"
+  },
+  "sizes": {
+    "label": "Размеры",
+    "value": "ш. 349 х в. 234 х г. 323"
+  },
+  "mechanism": {
+    "label": "Механизм",
+    "value": "Французская раскладушка"
+  },
+  "seller": {
+    "label": "Продавец",
+    "value": "DG Home",
+    "url": "https://dg-home.ru/"
+  }
+}, {
+  "image": {
+    "url": "/images/sofa.jpg",
+    "description": "Sofa"
+  },
+  "title": {
+    "label": "Название",
+    "value": "Тумба прикроватная Rubus с двумя ящиками"
+  },
+  "rating": {
+    "label": "Рейтинг",
+    "value": "4.4"
+  },
+  "price": {
+    "label": "Цена",
+    "value": "56 720 Р"
+  },
+  "color": {
+    "label": "Цвет",
+    "value": "Черный"
+  },
+  "material": {
+    "label": "Материал",
+    "value": "Ткань"
+  },
+  "sizes": {
+    "label": "Размеры",
+    "value": "ш. 349 х в. 234 х г. 323"
+  },
+  "mechanism": {
+    "label": "Механизм",
+    "value": "Французская раскладушка"
+  },
+  "seller": {
+    "label": "Продавец",
+    "value": "Laska Family",
+    "url": "https://laska-family.ru/"
+  }
+}, {
+  "image": {
+    "url": "/images/sofa.jpg",
+    "description": "Sofa"
+  },
+  "title": {
+    "label": "Название",
+    "value": "Тумба прикроватная Rubus с двумя ящиками"
+  },
+  "rating": {
+    "label": "Рейтинг",
+    "value": "4.4"
+  },
+  "price": {
+    "label": "Цена",
+    "value": "56 720 Р",
+    "discount": {
+      "value": "67 736 Р"
+    }
+  },
+  "color": {
+    "label": "Цвет",
+    "value": "Черный"
+  },
+  "material": {
+    "label": "Материал",
+    "value": "Ткань"
+  },
+  "sizes": {
+    "label": "Размеры",
+    "value": "ш. 349 х в. 234 х г. 323"
+  },
+  "mechanism": {
+    "label": "Механизм",
+    "value": "Французская раскладушка"
+  },
+  "seller": {
+    "label": "Продавец",
+    "value": "Laska Family",
+    "url": "https://laska-family.ru/"
+  }
+}, {
+  "image": {
+    "url": "/images/sofa.jpg",
+    "description": "Sofa"
+  },
+  "title": {
+    "label": "Название",
+    "value": "Тумба прикроватная Rubus с двумя ящиками"
+  },
+  "rating": {
+    "label": "Рейтинг",
+    "value": "4.4"
+  },
+  "price": {
+    "label": "Цена",
+    "value": "56 720 Р",
+    "discount": {
+      "value": "67 736 Р"
+    }
+  },
+  "color": {
+    "label": "Цвет",
+    "value": "Черный"
+  },
+  "material": {
+    "label": "Материал",
+    "value": "Ткань"
+  },
+  "sizes": {
+    "label": "Размеры",
+    "value": "ш. 349 х в. 234 х г. 323"
+  },
+  "mechanism": {
+    "label": "Механизм",
+    "value": "Французская раскладушка"
+  },
+  "seller": {
+    "label": "Продавец",
+    "value": "DG Home",
+    "url": "https://dg-home.ru/"
+  }
+}];
+},{}],"components/card/sidebar/index.tsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _preact = require("preact");
+
+var CardSidebar = function CardSidebar(props) {
+  var rating = props.rating,
+      price = props.price,
+      color = props.color,
+      material = props.material,
+      sizes = props.sizes,
+      mechanism = props.mechanism,
+      seller = props.seller;
+  return (0, _preact.h)("article", {
+    className: "card card--sidebar"
+  }, (0, _preact.h)("div", {
+    className: "card__main"
+  }, (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, rating.label)), (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, price.label)), (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, color.label)), (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, material.label)), (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, sizes.label)), (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, mechanism.label)), (0, _preact.h)("div", {
+    className: "row"
+  }, (0, _preact.h)("span", {
+    className: "overflow-ellipsis"
+  }, seller.label))), (0, _preact.h)("footer", {
+    "aria-hidden": "true"
+  }));
+};
+
+var _default = CardSidebar;
+exports.default = _default;
+},{"preact":"../node_modules/preact/dist/preact.module.js"}],"components/card-list/style.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -731,15 +1017,15 @@ var _preact = require("preact");
 require("./style.css");
 
 var Rating = function Rating(_ref) {
-  var rating = _ref.rating;
-  var starsNumber = Math.round(parseFloat(rating)).toString();
+  var value = _ref.value;
+  var starsNumber = Math.round(parseFloat(value)).toString();
   return (0, _preact.h)("div", {
     className: "rating"
   }, (0, _preact.h)("div", {
     className: 'rating__stars rating__stars--' + starsNumber
   }), (0, _preact.h)("span", {
     className: "rating__number"
-  }, rating));
+  }, value));
 };
 
 var _default = Rating;
@@ -816,12 +1102,12 @@ var Card = function Card(props) {
     }
   }), (0, _preact.h)("h4", {
     className: "card__title"
-  }, title)), (0, _preact.h)("div", {
+  }, title.value)), (0, _preact.h)("div", {
     className: "card__main"
   }, (0, _preact.h)("div", {
     className: "row"
   }, (0, _preact.h)(_rating.default, {
-    rating: rating
+    value: rating.value
   })), (0, _preact.h)("div", {
     className: "row"
   }, (0, _preact.h)(_price.default, {
@@ -831,25 +1117,25 @@ var Card = function Card(props) {
     className: "row"
   }, (0, _preact.h)("span", {
     className: "overflow-ellipsis"
-  }, color)), (0, _preact.h)("div", {
+  }, color.value)), (0, _preact.h)("div", {
     className: "row"
   }, (0, _preact.h)("span", {
     className: "overflow-ellipsis"
-  }, material)), (0, _preact.h)("div", {
+  }, material.value)), (0, _preact.h)("div", {
     className: "row"
   }, (0, _preact.h)("span", {
     className: "overflow-ellipsis"
-  }, sizes)), (0, _preact.h)("div", {
+  }, sizes.value)), (0, _preact.h)("div", {
     className: "row"
   }, (0, _preact.h)("span", {
     className: "overflow-ellipsis"
-  }, mechanism)), (0, _preact.h)("div", {
+  }, mechanism.value)), (0, _preact.h)("div", {
     className: "row"
   }, (0, _preact.h)("a", {
     href: seller.url,
     className: "overflow-ellipsis",
     target: "_blank"
-  }, seller.name))), (0, _preact.h)("footer", null, (0, _preact.h)("button", {
+  }, seller.value))), (0, _preact.h)("footer", null, (0, _preact.h)("button", {
     className: "btn-like",
     type: "button"
   }, (0, _preact.h)("svg", {
@@ -889,73 +1175,56 @@ var CardList = function CardList(_ref) {
   var cards = _ref.cards;
   return (0, _preact.h)("ul", {
     className: "card-list"
-  }, (0, _preact.h)("li", null, (0, _preact.h)("article", {
-    className: "card card--sidebar"
-  }, (0, _preact.h)("div", {
-    className: "card__main"
-  }, (0, _preact.h)("div", {
-    className: "row"
-  }, (0, _preact.h)("span", {
-    className: "overflow-ellipsis"
-  }, "\u0420\u0435\u0439\u0442\u0438\u043D\u0433")), (0, _preact.h)("div", {
-    className: "row"
-  }, (0, _preact.h)("span", {
-    className: "overflow-ellipsis"
-  }, "\u0426\u0435\u043D\u0430")), (0, _preact.h)("div", {
-    className: "row"
-  }, (0, _preact.h)("span", {
-    className: "overflow-ellipsis"
-  }, "\u0426\u0432\u0435\u0442")), (0, _preact.h)("div", {
-    className: "row"
-  }, (0, _preact.h)("span", {
-    className: "overflow-ellipsis"
-  }, "\u041C\u0430\u0442\u0435\u0440\u0438\u0430\u043B")), (0, _preact.h)("div", {
-    className: "row"
-  }, (0, _preact.h)("span", {
-    className: "overflow-ellipsis"
-  }, "\u0420\u0430\u0437\u043C\u0435\u0440\u044B")), (0, _preact.h)("div", {
-    className: "row"
-  }, (0, _preact.h)("span", {
-    className: "overflow-ellipsis"
-  }, "\u041C\u0435\u0445\u0430\u043D\u0438\u0437\u043C")), (0, _preact.h)("div", {
-    className: "row"
-  }, (0, _preact.h)("span", {
-    className: "overflow-ellipsis"
-  }, "\u041F\u0440\u043E\u0434\u0430\u0432\u0435\u0446"))), (0, _preact.h)("footer", null))), cards.map(function (cardOptions) {
+  }, cards.map(function (cardOptions) {
     return (0, _preact.h)("li", null, (0, _preact.h)(_card.default, Object.assign({}, cardOptions)));
   }));
 };
 
 var _default = CardList;
 exports.default = _default;
-},{"preact":"../node_modules/preact/dist/preact.module.js","./style.css":"components/card-list/style.css","../card":"components/card/index.tsx"}],"style.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.tsx":[function(require,module,exports) {
+},{"preact":"../node_modules/preact/dist/preact.module.js","./style.css":"components/card-list/style.css","../card":"components/card/index.tsx"}],"components/card-carousel/index.tsx":[function(require,module,exports) {
 "use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
 
 var _preact = require("preact");
 
+require("./style.css");
+
 var _data = _interopRequireDefault(require("./data.json"));
 
-var _cardList = _interopRequireDefault(require("./components/card-list"));
+var _sidebar = _interopRequireDefault(require("../card/sidebar"));
 
-require("./style.css");
+var _cardList = _interopRequireDefault(require("../card-list"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var App = function App() {
+var CardCarousel = function CardCarousel() {
   return (0, _preact.h)("section", {
-    className: "container app"
-  }, (0, _preact.h)(_cardList.default, {
+    className: "container card-carousel"
+  }, (0, _preact.h)(_sidebar.default, Object.assign({}, _data.default[0])), (0, _preact.h)(_cardList.default, {
     cards: _data.default
   }));
 };
 
-(0, _preact.render)((0, _preact.h)(App, null), document.getElementById('root'));
-},{"preact":"../node_modules/preact/dist/preact.module.js","./data.json":"data.json","./components/card-list":"components/card-list/index.tsx","./style.css":"style.css"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+var _default = CardCarousel;
+exports.default = _default;
+},{"preact":"../node_modules/preact/dist/preact.module.js","./style.css":"components/card-carousel/style.css","./data.json":"components/card-carousel/data.json","../card/sidebar":"components/card/sidebar/index.tsx","../card-list":"components/card-list/index.tsx"}],"index.tsx":[function(require,module,exports) {
+"use strict";
+
+var _preact = require("preact");
+
+require("./styles/index.css");
+
+var _cardCarousel = _interopRequireDefault(require("./components/card-carousel"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+(0, _preact.render)((0, _preact.h)(_cardCarousel.default, null), document.getElementById('root'));
+},{"preact":"../node_modules/preact/dist/preact.module.js","./styles/index.css":"styles/index.css","./components/card-carousel":"components/card-carousel/index.tsx"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -983,7 +1252,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58739" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59772" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

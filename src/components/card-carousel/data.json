@@ -1,0 +1,371 @@
+[
+  {
+    "image": {
+      "url": "/images/sofa.jpg",
+      "description": "Sofa"
+    },
+    "title": {
+      "label": "Название",
+      "value": "Тумба прикроватная Rubus с двумя ящиками"
+    },
+    "rating": {
+      "label": "Рейтинг",
+      "value": "4.4"
+    },
+    "price": {
+      "label": "Цена",
+      "value": "56 720 Р"
+    },
+    "color": {
+      "label": "Цвет",
+      "value": "Черный"
+    },
+    "material": {
+      "label": "Материал",
+      "value": "Ткань"
+    },
+    "sizes": {
+      "label": "Размеры",
+      "value": "ш. 349 х в. 234 х г. 323"
+    },
+    "mechanism": {
+      "label": "Механизм",
+      "value": "Французская раскладушка"
+    },
+    "seller": {
+      "label": "Продавец",
+      "value": "Laska Family",
+      "url": "https://laska-family.ru/"
+    }
+  },
+  {
+    "image": {
+      "url": "/images/sofa.jpg",
+      "description": "Sofa"
+    },
+    "title": {
+      "label": "Название",
+      "value": "Тумба прикроватная Rubus с двумя ящиками"
+    },
+    "rating": {
+      "label": "Рейтинг",
+      "value": "4.4"
+    },
+    "price": {
+      "label": "Цена",
+      "value": "56 720 Р",
+      "discount": {
+        "value": "67 736 Р"
+      }
+    },
+    "color": {
+      "label": "Цвет",
+      "value": "Черный"
+    },
+    "material": {
+      "label": "Материал",
+      "value": "Ткань"
+    },
+    "sizes": {
+      "label": "Размеры",
+      "value": "ш. 349 х в. 234 х г. 323"
+    },
+    "mechanism": {
+      "label": "Механизм",
+      "value": "Французская раскладушка"
+    },
+    "seller": {
+      "label": "Продавец",
+      "value": "Laska Family",
+      "url": "https://laska-family.ru/"
+    }
+  },
+  {
+    "image": {
+      "url": "/images/sofa.jpg",
+      "description": "Sofa"
+    },
+    "title": {
+      "label": "Название",
+      "value": "Тумба прикроватная Rubus с двумя ящиками"
+    },
+    "rating": {
+      "label": "Рейтинг",
+      "value": "4.4"
+    },
+    "price": {
+      "label": "Цена",
+      "value": "56 720 Р",
+      "discount": {
+        "value": "67 736 Р"
+      }
+    },
+    "color": {
+      "label": "Цвет",
+      "value": "Черный"
+    },
+    "material": {
+      "label": "Материал",
+      "value": "Ткань"
+    },
+    "sizes": {
+      "label": "Размеры",
+      "value": "ш. 349 х в. 234 х г. 323"
+    },
+    "mechanism": {
+      "label": "Механизм",
+      "value": "Французская раскладушка"
+    },
+    "seller": {
+      "label": "Продавец",
+      "value": "DG Home",
+      "url": "https://dg-home.ru/"
+    }
+  },
+  {
+    "image": {
+      "url": "/images/sofa.jpg",
+      "description": "Sofa"
+    },
+    "title": {
+      "label": "Название",
+      "value": "Тумба прикроватная Rubus с двумя ящиками"
+    },
+    "rating": {
+      "label": "Рейтинг",
+      "value": "4.4"
+    },
+    "price": {
+      "label": "Цена",
+      "value": "56 720 Р"
+    },
+    "color": {
+      "label": "Цвет",
+      "value": "Черный"
+    },
+    "material": {
+      "label": "Материал",
+      "value": "Ткань"
+    },
+    "sizes": {
+      "label": "Размеры",
+      "value": "ш. 349 х в. 234 х г. 323"
+    },
+    "mechanism": {
+      "label": "Механизм",
+      "value": "Французская раскладушка"
+    },
+    "seller": {
+      "label": "Продавец",
+      "value": "Laska Family",
+      "url": "https://laska-family.ru/"
+    }
+  },
+  {
+    "image": {
+      "url": "/images/sofa.jpg",
+      "description": "Sofa"
+    },
+    "title": {
+      "label": "Название",
+      "value": "Тумба прикроватная Rubus с двумя ящиками"
+    },
+    "rating": {
+      "label": "Рейтинг",
+      "value": "4.4"
+    },
+    "price": {
+      "label": "Цена",
+      "value": "56 720 Р",
+      "discount": {
+        "value": "67 736 Р"
+      }
+    },
+    "color": {
+      "label": "Цвет",
+      "value": "Черный"
+    },
+    "material": {
+      "label": "Материал",
+      "value": "Ткань"
+    },
+    "sizes": {
+      "label": "Размеры",
+      "value": "ш. 349 х в. 234 х г. 323"
+    },
+    "mechanism": {
+      "label": "Механизм",
+      "value": "Французская раскладушка"
+    },
+    "seller": {
+      "label": "Продавец",
+      "value": "Laska Family",
+      "url": "https://laska-family.ru/"
+    }
+  },
+  {
+    "image": {
+      "url": "/images/sofa.jpg",
+      "description": "Sofa"
+    },
+    "title": {
+      "label": "Название",
+      "value": "Тумба прикроватная Rubus с двумя ящиками"
+    },
+    "rating": {
+      "label": "Рейтинг",
+      "value": "4.4"
+    },
+    "price": {
+      "label": "Цена",
+      "value": "56 720 Р",
+      "discount": {
+        "value": "67 736 Р"
+      }
+    },
+    "color": {
+      "label": "Цвет",
+      "value": "Черный"
+    },
+    "material": {
+      "label": "Материал",
+      "value": "Ткань"
+    },
+    "sizes": {
+      "label": "Размеры",
+      "value": "ш. 349 х в. 234 х г. 323"
+    },
+    "mechanism": {
+      "label": "Механизм",
+      "value": "Французская раскладушка"
+    },
+    "seller": {
+      "label": "Продавец",
+      "value": "DG Home",
+      "url": "https://dg-home.ru/"
+    }
+  },
+  {
+    "image": {
+      "url": "/images/sofa.jpg",
+      "description": "Sofa"
+    },
+    "title": {
+      "label": "Название",
+      "value": "Тумба прикроватная Rubus с двумя ящиками"
+    },
+    "rating": {
+      "label": "Рейтинг",
+      "value": "4.4"
+    },
+    "price": {
+      "label": "Цена",
+      "value": "56 720 Р"
+    },
+    "color": {
+      "label": "Цвет",
+      "value": "Черный"
+    },
+    "material": {
+      "label": "Материал",
+      "value": "Ткань"
+    },
+    "sizes": {
+      "label": "Размеры",
+      "value": "ш. 349 х в. 234 х г. 323"
+    },
+    "mechanism": {
+      "label": "Механизм",
+      "value": "Французская раскладушка"
+    },
+    "seller": {
+      "label": "Продавец",
+      "value": "Laska Family",
+      "url": "https://laska-family.ru/"
+    }
+  },
+  {
+    "image": {
+      "url": "/images/sofa.jpg",
+      "description": "Sofa"
+    },
+    "title": {
+      "label": "Название",
+      "value": "Тумба прикроватная Rubus с двумя ящиками"
+    },
+    "rating": {
+      "label": "Рейтинг",
+      "value": "4.4"
+    },
+    "price": {
+      "label": "Цена",
+      "value": "56 720 Р",
+      "discount": {
+        "value": "67 736 Р"
+      }
+    },
+    "color": {
+      "label": "Цвет",
+      "value": "Черный"
+    },
+    "material": {
+      "label": "Материал",
+      "value": "Ткань"
+    },
+    "sizes": {
+      "label": "Размеры",
+      "value": "ш. 349 х в. 234 х г. 323"
+    },
+    "mechanism": {
+      "label": "Механизм",
+      "value": "Французская раскладушка"
+    },
+    "seller": {
+      "label": "Продавец",
+      "value": "Laska Family",
+      "url": "https://laska-family.ru/"
+    }
+  },
+  {
+    "image": {
+      "url": "/images/sofa.jpg",
+      "description": "Sofa"
+    },
+    "title": {
+      "label": "Название",
+      "value": "Тумба прикроватная Rubus с двумя ящиками"
+    },
+    "rating": {
+      "label": "Рейтинг",
+      "value": "4.4"
+    },
+    "price": {
+      "label": "Цена",
+      "value": "56 720 Р",
+      "discount": {
+        "value": "67 736 Р"
+      }
+    },
+    "color": {
+      "label": "Цвет",
+      "value": "Черный"
+    },
+    "material": {
+      "label": "Материал",
+      "value": "Ткань"
+    },
+    "sizes": {
+      "label": "Размеры",
+      "value": "ш. 349 х в. 234 х г. 323"
+    },
+    "mechanism": {
+      "label": "Механизм",
+      "value": "Французская раскладушка"
+    },
+    "seller": {
+      "label": "Продавец",
+      "value": "DG Home",
+      "url": "https://dg-home.ru/"
+    }
+  }
+]

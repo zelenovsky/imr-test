@@ -12,37 +12,37 @@ const Card: FunctionalComponent<ICard> = (props) => {
     <article className="card">
       <header>
         <div className="card__image" style={{backgroundImage: `url(${image.url})`}}/>
-        <h4 className="card__title">{title}</h4>
+        <h4 className="card__title">{title.value}</h4>
       </header>
       <div className="card__main">
         <div className="row">
-          <Rating rating={rating}/>
+          <Rating value={rating.value}/>
         </div>
         <div className="row">
           <Price value={price.value} discount={price.discount} />
         </div>
         <div className="row">
           <span className="overflow-ellipsis">
-            {color}
+            {color.value}
           </span>
         </div>
         <div className="row">
           <span className="overflow-ellipsis">
-            {material}
+            {material.value}
           </span>
         </div>
         <div className="row">
           <span className="overflow-ellipsis">
-            {sizes}
+            {sizes.value}
           </span>
         </div>
         <div className="row">
           <span className="overflow-ellipsis">
-            {mechanism}
+            {mechanism.value}
           </span>
         </div>
         <div className="row">
-          <a href={seller.url} className="overflow-ellipsis" target="_blank">{seller.name}</a>
+          <a href={seller.url} className="overflow-ellipsis" target="_blank">{seller.value}</a>
         </div>
       </div>
       <footer>

@@ -7,6 +7,14 @@
   font-weight: 500;
 }
 
+.card--sidebar {
+  font-size: 13px;
+  font-weight: 600;
+  flex: 0 0 200px;
+  width: 200px;
+  margin-top: auto;
+}
+
 .card header {
   padding-bottom: 18px;
 }
@@ -51,9 +59,4 @@
 
 .card footer > .btn-buy {
   flex: 1 1 auto;
-}
-
-.card--sidebar {
-  font-size: 13px;
-  font-weight: 600;
 }

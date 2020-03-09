@@ -1,15 +1,6 @@
 import { h, render } from 'preact';
 
-import data from './data.json';
-import CardList from './components/card-list';
-import './style.css';
+import './styles/index.css';
+import CardCarousel from './components/card-carousel';
 
-const App = () => {
-  return (
-    <section className="container app">
-      <CardList cards={data} />
-    </section>
-  )
-};
-
-render(<App />, document.getElementById('root'));
+render(<CardCarousel />, document.getElementById('root'));

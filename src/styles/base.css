@@ -20,48 +20,6 @@ img {
   max-width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-a {
-  color: #3F78D4;
-}
-
-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 0.5em 0.9em;
-  border: none;
-  border-radius: 4px;
-  font-family: inherit;
-  font-size: 14px;
-  color: #FFFFFF;
-  cursor: pointer;
-}
-
-.btn-like {
-  border: 2px solid #FF9F9F;
-}
-
-.btn-buy {
-  background-color: #009900;
-}
-
-.app {
-  position: relative;
-  padding-top: 52px;
-  overflow: hidden;
-}
-
 .container {
   max-width: 1130px;
   margin: 0 auto;
@@ -87,10 +45,4 @@ button {
   z-index: -1;
   pointer-events: none;
   content: '';
-}
-
-.overflow-ellipsis {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }

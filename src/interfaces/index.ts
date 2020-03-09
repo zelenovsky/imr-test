@@ -3,31 +3,30 @@ export interface IImage {
   description?: string;
 }
 
-export interface IPrice {
+export interface IField {
+  label?: string;
   value: string;
+}
+
+export interface IPrice extends IField {
   discount?: {
     value: string;
   }
 }
 
-export interface IRating {
-  rating: string;
-}
-
-export interface ISeller {
+export interface ISeller extends IField {
   url: string;
-  name: string;
 }
 
 export interface ICard {
   image: IImage;
-  title: string;
-  rating: string;
+  title: IField;
+  rating: IField;
   price: IPrice;
-  color: string;
-  material: string;
-  sizes: string;
-  mechanism: string;
+  color: IField;
+  material: IField;
+  sizes: IField;
+  mechanism: IField;
   seller: ISeller;
 }
 
