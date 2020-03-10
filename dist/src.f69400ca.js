@@ -620,7 +620,7 @@ module.exports = [{
   },
   "rating": {
     "label": "Рейтинг",
-    "value": "4.4"
+    "value": "3.1"
   },
   "price": {
     "label": "Цена",
@@ -702,7 +702,7 @@ module.exports = [{
   },
   "rating": {
     "label": "Рейтинг",
-    "value": "4.4"
+    "value": "5"
   },
   "price": {
     "label": "Цена",
@@ -822,7 +822,7 @@ module.exports = [{
   },
   "rating": {
     "label": "Рейтинг",
-    "value": "4.4"
+    "value": "3.8"
   },
   "price": {
     "label": "Цена",
@@ -901,7 +901,7 @@ module.exports = [{
   },
   "rating": {
     "label": "Рейтинг",
-    "value": "4.4"
+    "value": "4.5"
   },
   "price": {
     "label": "Цена",
@@ -989,6 +989,187 @@ var CardSidebar = function CardSidebar(props) {
 
 var _default = CardSidebar;
 exports.default = _default;
+},{"preact":"../node_modules/preact/dist/preact.module.js"}],"../node_modules/preact/hooks/dist/hooks.module.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.useState = v;
+exports.useReducer = m;
+exports.useEffect = p;
+exports.useLayoutEffect = l;
+exports.useRef = y;
+exports.useImperativeHandle = d;
+exports.useMemo = s;
+exports.useCallback = h;
+exports.useContext = T;
+exports.useDebugValue = w;
+exports.useErrorBoundary = A;
+
+var _preact = require("preact");
+
+var t,
+    r,
+    u,
+    i = [],
+    o = _preact.options.__r,
+    f = _preact.options.diffed,
+    c = _preact.options.__c,
+    e = _preact.options.unmount;
+
+function a(t) {
+  _preact.options.__h && _preact.options.__h(r);
+  var u = r.__H || (r.__H = {
+    __: [],
+    __h: []
+  });
+  return t >= u.__.length && u.__.push({}), u.__[t];
+}
+
+function v(n) {
+  return m(x, n);
+}
+
+function m(n, u, i) {
+  var o = a(t++);
+  return o.__c || (o.__c = r, o.__ = [i ? i(u) : x(void 0, u), function (t) {
+    var r = n(o.__[0], t);
+    o.__[0] !== r && (o.__[0] = r, o.__c.setState({}));
+  }]), o.__;
+}
+
+function p(n, u) {
+  var i = a(t++);
+  q(i.__H, u) && (i.__ = n, i.__H = u, r.__H.__h.push(i));
+}
+
+function l(n, u) {
+  var i = a(t++);
+  q(i.__H, u) && (i.__ = n, i.__H = u, r.__h.push(i));
+}
+
+function y(n) {
+  return s(function () {
+    return {
+      current: n
+    };
+  }, []);
+}
+
+function d(n, t, r) {
+  l(function () {
+    "function" == typeof n ? n(t()) : n && (n.current = t());
+  }, null == r ? r : r.concat(n));
+}
+
+function s(n, r) {
+  var u = a(t++);
+  return q(u.__H, r) ? (u.__H = r, u.__h = n, u.__ = n()) : u.__;
+}
+
+function h(n, t) {
+  return s(function () {
+    return n;
+  }, t);
+}
+
+function T(n) {
+  var u = r.context[n.__c];
+  if (!u) return n.__;
+  var i = a(t++);
+  return null == i.__ && (i.__ = !0, u.sub(r)), u.props.value;
+}
+
+function w(t, r) {
+  _preact.options.useDebugValue && _preact.options.useDebugValue(r ? r(t) : t);
+}
+
+function A(n) {
+  var u = a(t++),
+      i = v();
+  return u.__ = n, r.componentDidCatch || (r.componentDidCatch = function (n) {
+    u.__ && u.__(n), i[1](n);
+  }), [i[0], function () {
+    i[1](void 0);
+  }];
+}
+
+function F() {
+  i.some(function (t) {
+    if (t.__P) try {
+      t.__H.__h.forEach(_), t.__H.__h.forEach(g), t.__H.__h = [];
+    } catch (r) {
+      return _preact.options.__e(r, t.__v), !0;
+    }
+  }), i = [];
+}
+
+function _(n) {
+  n.t && n.t();
+}
+
+function g(n) {
+  var t = n.__();
+
+  "function" == typeof t && (n.t = t);
+}
+
+function q(n, t) {
+  return !n || t.some(function (t, r) {
+    return t !== n[r];
+  });
+}
+
+function x(n, t) {
+  return "function" == typeof t ? t(n) : t;
+}
+
+_preact.options.__r = function (n) {
+  o && o(n), t = 0, (r = n.__c).__H && (r.__H.__h.forEach(_), r.__H.__h.forEach(g), r.__H.__h = []);
+}, _preact.options.diffed = function (t) {
+  f && f(t);
+  var r = t.__c;
+
+  if (r) {
+    var o = r.__H;
+    o && o.__h.length && (1 !== i.push(r) && u === _preact.options.requestAnimationFrame || ((u = _preact.options.requestAnimationFrame) || function (n) {
+      var t,
+          r = function () {
+        clearTimeout(u), cancelAnimationFrame(t), setTimeout(n);
+      },
+          u = setTimeout(r, 100);
+
+      "undefined" != typeof window && (t = requestAnimationFrame(r));
+    })(F));
+  }
+}, _preact.options.__c = function (t, r) {
+  r.some(function (t) {
+    try {
+      t.__h.forEach(_), t.__h = t.__h.filter(function (n) {
+        return !n.__ || g(n);
+      });
+    } catch (u) {
+      r.some(function (n) {
+        n.__h && (n.__h = []);
+      }), r = [], _preact.options.__e(u, t.__v);
+    }
+  }), c && c(t, r);
+}, _preact.options.unmount = function (t) {
+  e && e(t);
+  var r = t.__c;
+
+  if (r) {
+    var u = r.__H;
+    if (u) try {
+      u.__.forEach(function (n) {
+        return n.t && n.t();
+      });
+    } catch (t) {
+      _preact.options.__e(t, r.__v);
+    }
+  }
+};
 },{"preact":"../node_modules/preact/dist/preact.module.js"}],"components/card-list/style.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
@@ -1165,24 +1346,55 @@ exports.default = void 0;
 
 var _preact = require("preact");
 
+var _hooks = require("preact/hooks");
+
 require("./style.css");
 
 var _card = _interopRequireDefault(require("../card"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 var CardList = function CardList(_ref) {
-  var cards = _ref.cards;
+  var cardsData = _ref.cardsData;
+
+  var _useState = (0, _hooks.useState)(1),
+      _useState2 = _slicedToArray(_useState, 2),
+      cardsToRender = _useState2[0],
+      setCardsToRender = _useState2[1];
+
+  var cardList = (0, _preact.createRef)();
+  var cardItem = (0, _preact.createRef)();
+
+  var renderCards = function renderCards() {
+    if (cardList.current.getBoundingClientRect().right + 10 > cardItem.current.getBoundingClientRect().right) {
+      setCardsToRender(cardsToRender + 1);
+    }
+  };
+
+  (0, _hooks.useEffect)(renderCards, [cardsToRender]);
   return (0, _preact.h)("ul", {
-    className: "card-list"
-  }, cards.map(function (cardOptions) {
-    return (0, _preact.h)("li", null, (0, _preact.h)(_card.default, Object.assign({}, cardOptions)));
+    className: "card-list",
+    ref: cardList,
+    onScroll: renderCards
+  }, cardsData.map(function (cardOptions, index) {
+    if (cardsToRender <= index) return;
+    return (0, _preact.h)("li", {
+      ref: cardItem
+    }, (0, _preact.h)(_card.default, Object.assign({}, cardOptions)));
   }));
 };
 
 var _default = CardList;
 exports.default = _default;
-},{"preact":"../node_modules/preact/dist/preact.module.js","./style.css":"components/card-list/style.css","../card":"components/card/index.tsx"}],"components/card-carousel/index.tsx":[function(require,module,exports) {
+},{"preact":"../node_modules/preact/dist/preact.module.js","preact/hooks":"../node_modules/preact/hooks/dist/hooks.module.js","./style.css":"components/card-list/style.css","../card":"components/card/index.tsx"}],"components/card-carousel/index.tsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -1206,7 +1418,7 @@ var CardCarousel = function CardCarousel() {
   return (0, _preact.h)("section", {
     className: "container card-carousel"
   }, (0, _preact.h)(_sidebar.default, Object.assign({}, _data.default[0])), (0, _preact.h)(_cardList.default, {
-    cards: _data.default
+    cardsData: _data.default
   }));
 };
 
@@ -1252,7 +1464,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59772" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61539" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

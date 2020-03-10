@@ -31,5 +31,5 @@ export interface ICard {
 }
 
 export interface ICardList {
-  cards: ICard[];
+  cardsData: ICard[];
 }

@@ -9,7 +9,7 @@ const CardCarousel: FunctionalComponent = () => {
   return (
     <section className="container card-carousel">
       <CardSidebar {...data[0]}/>
-      <CardList cards={data} />
+      <CardList cardsData={data} />
     </section>
   )
 };
